@@ -1,0 +1,6 @@
+[submodule "nerfacc"]
+	path = nerfacc
+	url = https://github.com/nerfstudio-project/nerfacc.git
+[submodule "openvdb"]
+	path = openvdb
+	url = https://github.com/AcademySoftwareFoundation/openvdb.git
