@@ -1,5 +1,8 @@
-Source code for "Plug-and-Play Acceleration of Occupancy Grid-based NeRF Rendering using VDB Grid and Hierarchical Ray Traversal"
+Source code for ["Plug-and-Play Acceleration of Occupancy Grid-based NeRF Rendering using VDB Grid and Hierarchical Ray Traversal"](https://arxiv.org/abs/2404.10272)
 
+![poster](./NRI2024_Poster_84x42_q20.jpg)
+
+## Usage
 
 ```
 > docker build -t faster-occgrid .
@@ -19,9 +22,9 @@ Source code for "Plug-and-Play Acceleration of Occupancy Grid-based NeRF Renderi
 ## LICENSE
 This repository is licensed under MIT License. See ./LICENSE for detail.
 
+### License of NerfAcc
 Some codes are copied from https://github.com/nerfstudio-project/nerfacc.git
 
-License of NerfAcc:
 ```
 MIT License
 
@@ -49,3 +52,14 @@ THIS SOFTWARE AND/OR DATA WAS DEPOSITED IN THE BAIR OPEN RESEARCH COMMONS
 REPOSITORY ON 05/08/2023.
 ```
 
+## Citation
+
+```
+@misc{kato2024plugandplay,
+      title={Plug-and-Play Acceleration of Occupancy Grid-based NeRF Rendering using VDB Grid and Hierarchical Ray Traversal}, 
+      author={Yoshio Kato and Shuhei Tarashima},
+      year={2024},
+      eprint={2404.10272},
+      archivePrefix={arXiv}
+}
+```
